@@ -13,6 +13,8 @@ set(ENGINE_API_SOURCES
     src/engine_api_options.cpp
     src/engine_api_misc.cpp
     src/engine_api_stub.cpp
+    # ABI 取值与结构布局守卫：纯 static_assert，编译即检查（原 tests/ 里的 Catch2 测试）
+    src/abi_layout_guard.cpp
 )
 
 if(ANDROID)
