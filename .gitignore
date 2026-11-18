@@ -1,0 +1,10 @@
+# 构建产物
+build/
+out/
+bin/
+*.o
+*.a
+*.so
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
